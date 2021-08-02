@@ -34,6 +34,14 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.active').trigger('click');
+
+    });
+    </script>
 </head>
 
 <body>
@@ -69,105 +77,417 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li data-filter="*" class="filter-active">Tümü</li> 
+              <li data-filter=".filter-hot-drink">Sıcak içecekler</li>
+              <li data-filter=".filter-cold-drink">Soğuk İçecekler</li>
+              <li class="active" data-filter=".filter-tatlilar">Pastalar ve Tatlılar</li>
+              <li data-filter=".filter-tostlar">Tostlar</li>
+              <li class="active" data-filter=".filter-omlets">Kahvaltı ve Omletler</li>
+              <li class="active" data-filter=".filter-salats">Salatalar</li>
             </ul>
           </div>
         </div>
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+
+          <!-- sıcak içeçekler -->
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/375/508/png-transparent-green-tea-herbal-tea-coffee-drink-tea-food-tea-electric-kettle.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
+              <a href="#">Bitki Çayları</a><span>15.00 TL</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+               ıhlamur, kış çayı,ada çayı, yeşil çay, elma, melisa, papatya, rezene, nane limon, kuşburnu, yaseminli yeşil çay.
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/963/321/png-transparent-green-tea-bubble-tea-assam-tea-ginger-tea-tea-tea-herbal-tea-infusion.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Bardak Çay</a><span>3.50 TL</span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/963/321/png-transparent-green-tea-bubble-tea-assam-tea-ginger-tea-tea-tea-herbal-tea-infusion.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
-            </div>
-            <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              <a href="#">Fincan Çay</a><span>7.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/132/461/png-transparent-turkish-coffee-tea-cafe-turkish-cuisine-cup-cafe-tea-teacup.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Türk Kahvesi</a><span>12.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/132/461/png-transparent-turkish-coffee-tea-cafe-turkish-cuisine-cup-cafe-tea-teacup.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Damla Sakızlı Türk Kahvesi</a><span>15.00 TL </span>
             </div>
-            <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/132/461/png-transparent-turkish-coffee-tea-cafe-turkish-cuisine-cup-cafe-tea-teacup.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Dibek Kahvesi</a><span>14.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/175/69/png-transparent-red-and-white-nescafe-ceramic-mug-filled-with-coffee-instant-coffee-espresso-tea-nescafe-nescafe-red-mug-coffee-food-coffee-mug-coffee.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Nescafe</a><span>7.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+          
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/663/805/png-transparent-salep-milk-cappuccino-cafe-coffee-milk-tea-coffee-hot-chocolate.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+              <a href="#">Sahlep</a><span>15.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/663/805/png-transparent-salep-milk-cappuccino-cafe-coffee-milk-tea-coffee-hot-chocolate.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+              <a href="#">Damla Sakızlı Sahlep</a><span>16.00 TL </span>
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/663/805/png-transparent-salep-milk-cappuccino-cafe-coffee-milk-tea-coffee-hot-chocolate.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              <a href="#">Dondurmalı Sahlep</a><span>17.00 TL </span>
             </div>
           </div>
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/330/985/png-transparent-coffee-cup-cafe-cappuccino-espresso-cappuccino.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Cappuccino</a><span>15.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/453/34/png-transparent-coffee-milk-cafe-latte-coffee-cream-food-cafe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cafe Latte</a><span>12.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/476/482/png-transparent-frappe-coffee-caffe-mocha-milkshake-latte-coffee-cream-food-frozen-dessert.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Mocha </a><span>14.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-hot-drink">
+            <img src="https://w7.pngwing.com/pngs/234/800/png-transparent-hot-chocolate-coffee-white-chocolate-cafe-cream-coffee-food-black-white-tea.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Sıcak Çikolata </a><span>13.00 TL </span>
+            </div>
+          </div>
+
+
+
+
+
+
+          <!-- Soğuk içecek  -->
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/742/816/png-transparent-coca-cola-can-illustration-coca-cola-soft-drink-surge-pepsi-coke-sweetness-cola-sugar.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Kola</a><span>8.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/216/501/png-transparent-fizzy-drinks-fanta-orange-soft-drink-carbonated-water-fanta-orange-orange-drink-juice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Fanta</a><span>8.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/754/911/png-transparent-iced-tea-lipton-ice-tea-cold-tea-tea-fruit-portfolio.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">İce Tea</a><span>8.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/1013/741/png-transparent-sangria-cocktail-wine-juice-liqueur-weekend-drink-distilled-beverage-recipe-non-alcoholic-beverage.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Meyveli Soda</a><span>6.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/487/603/png-transparent-bottled-water-purified-water-splash-mineral-water-bottles-glass-white-label.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sade Soda</a><span>4.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/673/527/png-transparent-buttermilk-soy-milk-ayran-hemp-milk-grain-milk-milk-glass-milk-on-drinking-glass-glass-cream-white.png  " class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Susurluk Ayranı</a><span>6.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/487/603/png-transparent-bottled-water-purified-water-splash-mineral-water-bottles-glass-white-label.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Su</a><span>3.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/206/654/png-transparent-burning-fire-combustion-raging-fire-flames.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Burn</a><span>10.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/767/129/png-transparent-orange-juice-breakfast-juicer-juice-food-breakfast-citrus.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Taze Sıkma Portakal Suyu</a><span>18.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/378/512/png-transparent-lemon-juice-in-drinking-glass-juice-cocktail-lemonade-limeade-lemonade-citrus-non-alcoholic-beverage-lime-juice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Ev Yapımı Limonata</a><span>14.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/225/525/png-transparent-pomegranate-pomegranate-juice-orange-juice-pomegranate-juice-natural-foods-food-leaf.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Ev Yapımı Karadut Suyu</a><span>18.00 TL</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold-drink">
+            <img src="https://w7.pngwing.com/pngs/225/525/png-transparent-pomegranate-pomegranate-juice-orange-juice-pomegranate-juice-natural-foods-food-leaf.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Taze Sıkılmış Nar Suyu</a><span>20.00 TL</span>
+            </div>
+          </div>
+
+          <!-- Tostlar -->
+
+          <div class="col-lg-6 menu-item filter-tostlar">
+            <img src="https://w7.pngwing.com/pngs/708/466/png-transparent-breakfast-sandwich-ham-and-cheese-sandwich-toast-sandwich-melt-sandwich-toast-food-breakfast-cheese-sandwich.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Kavurmalı Tost </a><span> 24.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tostlar">
+            <img src="https://w7.pngwing.com/pngs/708/466/png-transparent-breakfast-sandwich-ham-and-cheese-sandwich-toast-sandwich-melt-sandwich-toast-food-breakfast-cheese-sandwich.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Karışık Bazlama Tost </a><span> 22.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tostlar">
+            <img src="https://w7.pngwing.com/pngs/708/466/png-transparent-breakfast-sandwich-ham-and-cheese-sandwich-toast-sandwich-melt-sandwich-toast-food-breakfast-cheese-sandwich.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Kaşar Peynirli Tost </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <!-- Kahvaltı ve Omletler -->
+
+          
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/250/932/png-transparent-breakfast-platter-fish-and-chips-full-breakfast-baked-beans-toast-traditional-food-recipe-breakfast.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Kahvaltı Tabağı</a><span> 35.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/715/325/png-transparent-omelette-crepe-breakfast-naan-french-cuisine-omelette-food-recipe-cuisine.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Sebzeli Omlet</a><span> 15.00 TL </span>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/715/325/png-transparent-omelette-crepe-breakfast-naan-french-cuisine-omelette-food-recipe-cuisine.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Sucuklu Omlet</a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/715/325/png-transparent-omelette-crepe-breakfast-naan-french-cuisine-omelette-food-recipe-cuisine.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Karışık Omlet</a><span> 22.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/72/311/png-transparent-simit-bagel-donuts-bakery-bread-bagel-baked-goods-food-whole-grain.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Poğaçalar </a><span> 2.00 TL </span>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/72/311/png-transparent-simit-bagel-donuts-bakery-bread-bagel-baked-goods-food-whole-grain.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> İçli Açma </a><span> 3.50 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/802/846/png-transparent-danish-pastry-borek-kol-bore%C4%9Fi-banitsa-puff-pastry-cheese-baked-goods-food-cheese.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Kol Böreği </a><span> 14.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-omlets">
+            <img src="https://w7.pngwing.com/pngs/859/433/png-transparent-borek-turkish-cuisine-baklava-pl%C4%83cint%C4%83-su-bore%C4%9Fi-cheese-borek-turkish-cuisine-baklava.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Su Böreği </a><span> 14.00 TL </span>
+            </div>
+          </div>
+
+
+
+          <!-- Salatalar -->
+
+
+          <div class="col-lg-6 menu-item filter-salats">
+            <img src="https://w7.pngwing.com/pngs/536/540/png-transparent-caesar-salad-mesclun-salad-dressing-leaf-vegetable-salad.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Ton Balıklı Salata</a><span> 30.00 TL </span>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-salats">
+            <img src="https://w7.pngwing.com/pngs/536/540/png-transparent-caesar-salad-mesclun-salad-dressing-leaf-vegetable-salad.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Dana Bonfile Salata</a><span> 32.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salats">
+            <img src="https://w7.pngwing.com/pngs/536/540/png-transparent-caesar-salad-mesclun-salad-dressing-leaf-vegetable-salad.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Hellimli Salata</a><span> 28.00 TL </span>
+            </div>
+          </div>
+
+          <!-- Pastalar ve Tatlılar -->
+
+
+          
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Tiramisu </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Mozaik Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Meyveli Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Frambuazlı Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Çilekli Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Karamelli Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Malaga </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/556/1010/png-transparent-tiramisu-torte-ladyfinger-cheesecake-ice-cream-ice-cream-cream-food-recipe.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Çikolatalı Pasta </a><span> 18.00 TL </span>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/214/296/png-transparent-tavuk-go%C4%9Fsu-kazandibi-rice-pudding-profiterole-tiramisu-cake-food-cake-bowl.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Fırın  Sütlaç </a><span> 19.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/442/82/png-transparent-fruit-salad-juice-bowl-food-fruit-dish-natural-foods-frutti-di-bosco-dried-fruit-thumbnail.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Meyveli  Kup </a><span> 19.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/352/535/png-transparent-baklava-sharbat-charlotte-tres-leches-cake-dessert-walnut-baked-goods-food-baking.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Havuç Dilimi </a><span> 25.00 TL </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tatlilar">
+            <img src="https://w7.pngwing.com/pngs/635/1022/png-transparent-blue-ceramic-bowl-with-ice-cream-in-it-chocolate-ice-cream-milkshake-ice-cream-cone-ice-cream-free-cream-food-free-logo-design-template-thumbnail.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#"> Dondurma </a><span> 5.00 TL </span>
+            </div>
+          </div>
+
 
         </div>
 
@@ -185,68 +505,15 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>Fırın Zade Cafe & Pasta</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+               Kılıçaslan Mahallesi <br>
+                 Bolu 155.sokak Yaşaroğlu Apartmanı 2/A, Türkiye<br><br>
+                <strong>Telefon:</strong> +90 541 850 1461<br>
               </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
